@@ -2,7 +2,7 @@
 
 Custom images (edge and circle)
 
-<img src="https://github.com/rudsonlive/rounded-Image-ios/blob/master/Image/image_rounded.png">
+<img src="https://github.com/rudsonlive/rounded-image-ios/blob/master/Image/image_rounded.png">
 
 # On the screens
 
