@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="RoundedImage" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Rudson" translatesAutoresizingMaskIntoConstraints="NO" id="2aW-Hv-kTP">
+                                <rect key="frame" x="12" y="44" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="0gq-t0-aAs"/>
+                                    <constraint firstAttribute="width" constant="100" id="NJ6-Er-6Bh"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Rudson" translatesAutoresizingMaskIntoConstraints="NO" id="GBR-Pb-f2m">
+                                <rect key="frame" x="488" y="44" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="kM9-uQ-Pdj"/>
+                                    <constraint firstAttribute="width" constant="100" id="oM4-pg-O1T"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Rudson" translatesAutoresizingMaskIntoConstraints="NO" id="hvz-06-1Tm">
+                                <rect key="frame" x="12" y="480" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="Fjg-zK-dzE"/>
+                                    <constraint firstAttribute="width" constant="100" id="MCg-Rg-UgD"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Rudson" translatesAutoresizingMaskIntoConstraints="NO" id="bjI-os-jRP">
+                                <rect key="frame" x="12" y="250" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="SLI-R2-Ds6"/>
+                                    <constraint firstAttribute="width" constant="100" id="iAA-SV-Pk0"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Rudson" translatesAutoresizingMaskIntoConstraints="NO" id="X80-8N-Xgw">
+                                <rect key="frame" x="488" y="480" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="0jb-s0-76Q"/>
+                                    <constraint firstAttribute="width" constant="100" id="7Fn-1c-JkS"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Rudson" translatesAutoresizingMaskIntoConstraints="NO" id="YmW-Is-88k">
+                                <rect key="frame" x="488" y="250" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="NOR-DZ-hY6"/>
+                                    <constraint firstAttribute="width" constant="100" id="a5H-Wc-Y8g"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.20000000300000001" green="0.20000000300000001" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="bjI-os-jRP" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-8" id="2eM-nx-B5t"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="X80-8N-Xgw" secondAttribute="bottom" constant="20" id="67c-p8-vcd"/>
+                            <constraint firstItem="GBR-Pb-f2m" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" constant="8" id="6ru-em-pLk"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="YmW-Is-88k" secondAttribute="trailing" constant="-8" id="Frh-3U-ts6"/>
+                            <constraint firstItem="hvz-06-1Tm" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-8" id="IAE-fY-I6a"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="hvz-06-1Tm" secondAttribute="bottom" constant="20" id="IXD-g0-1xh"/>
+                            <constraint firstItem="YmW-Is-88k" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Qdl-eQ-acN"/>
+                            <constraint firstItem="X80-8N-Xgw" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" constant="8" id="XJa-7d-P2K"/>
+                            <constraint firstItem="GBR-Pb-f2m" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="24" id="esV-Um-VOr"/>
+                            <constraint firstItem="2aW-Hv-kTP" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-8" id="fzE-BK-PYp"/>
+                            <constraint firstItem="bjI-os-jRP" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="jQu-Sx-XPD"/>
+                            <constraint firstItem="2aW-Hv-kTP" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="24" id="ww9-S2-dRf"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imgBottomLeft" destination="hvz-06-1Tm" id="Sj1-i9-yyD"/>
+                        <outlet property="imgBottomRight" destination="X80-8N-Xgw" id="A3l-aw-XFG"/>
+                        <outlet property="imgCenterFullyRound" destination="YmW-Is-88k" id="f1C-yb-Jzo"/>
+                        <outlet property="imgCenterRound" destination="bjI-os-jRP" id="TcP-Zd-Jfp"/>
+                        <outlet property="imgTopLeft" destination="2aW-Hv-kTP" id="vsz-rL-9H4"/>
+                        <outlet property="imgTopRight" destination="GBR-Pb-f2m" id="y3z-ot-JfR"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="380" y="312"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Rudson" width="298" height="365"/>
+    </resources>
+</document>
